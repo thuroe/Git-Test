@@ -58,11 +58,11 @@
 			children = (
 				A11F1038262C41A3003F9CFC /* Git_TestApp.swift */,
 				A11F103A262C41A3003F9CFC /* ContentView.swift */,
+				A11F1048262C4414003F9CFC /* ModalView.swift */,
 				A11F103C262C41A4003F9CFC /* Assets.xcassets */,
 				A11F1041262C41A4003F9CFC /* Info.plist */,
 				A11F103E262C41A4003F9CFC /* Preview Content */,
 				A11F1047262C4414003F9CFC /* ReadMe - Where to put template.rtf */,
-				A11F1048262C4414003F9CFC /* ModalView.swift */,
 			);
 			path = "Git-Test";
 			sourceTree = "<group>";

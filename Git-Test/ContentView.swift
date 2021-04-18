@@ -12,10 +12,9 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView{
-        Button("Show Modal") {
-            self.isPresented = true
-        }.sheet(isPresented: $isPresented) {
-            ModalView()
+            NavigationLink( destination: ModalView()) {
+                Text("Go next")
+    
         }
         .navigationBarTitle("Xcode  and Git")
         }
@@ -27,3 +26,8 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+//Button("Show Modal") {
+//    self.isPresented = true
+//}.foregroundColor(.red).sheet(isPresented: $isPresented) {
+//    ModalView()

@@ -13,7 +13,9 @@ struct ModalView {
 
 extension ModalView: View {
     var body: some View {
-        Text("This is a modal view")
+        VStack {
+            Text("This is a modal view")
+        }.navigationBarTitle("Second View", displayMode: .inline)
     }
 }
 struct ModalView_Previews: PreviewProvider {
