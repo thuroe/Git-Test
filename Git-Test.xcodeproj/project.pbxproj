@@ -11,6 +11,8 @@
 		A11F103B262C41A3003F9CFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F103A262C41A3003F9CFC /* ContentView.swift */; };
 		A11F103D262C41A4003F9CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11F103C262C41A4003F9CFC /* Assets.xcassets */; };
 		A11F1040262C41A4003F9CFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11F103F262C41A4003F9CFC /* Preview Assets.xcassets */; };
+		A11F1049262C4414003F9CFC /* ReadMe - Where to put template.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A11F1047262C4414003F9CFC /* ReadMe - Where to put template.rtf */; };
+		A11F104A262C4414003F9CFC /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1048262C4414003F9CFC /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A11F103C262C41A4003F9CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A11F103F262C41A4003F9CFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A11F1041262C41A4003F9CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11F1047262C4414003F9CFC /* ReadMe - Where to put template.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "ReadMe - Where to put template.rtf"; sourceTree = "<group>"; };
+		A11F1048262C4414003F9CFC /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				A11F103C262C41A4003F9CFC /* Assets.xcassets */,
 				A11F1041262C41A4003F9CFC /* Info.plist */,
 				A11F103E262C41A4003F9CFC /* Preview Content */,
+				A11F1047262C4414003F9CFC /* ReadMe - Where to put template.rtf */,
+				A11F1048262C4414003F9CFC /* ModalView.swift */,
 			);
 			path = "Git-Test";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11F1049262C4414003F9CFC /* ReadMe - Where to put template.rtf in Resources */,
 				A11F1040262C41A4003F9CFC /* Preview Assets.xcassets in Resources */,
 				A11F103D262C41A4003F9CFC /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11F104A262C4414003F9CFC /* ModalView.swift in Sources */,
 				A11F103B262C41A3003F9CFC /* ContentView.swift in Sources */,
 				A11F1039262C41A3003F9CFC /* Git_TestApp.swift in Sources */,
 			);
